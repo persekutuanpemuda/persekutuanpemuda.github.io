@@ -587,7 +587,8 @@ nav.main-nav ul li {
     transition: opacity 0s;
   }
   ul.nav-links li {
-    opacity: 0;
+    display: none;
+    /* opacity: 0; */
   }
   ul.nav-links li.brand {
     opacity: 1;
@@ -611,9 +612,10 @@ nav.main-nav ul li {
     transition: opacity 1s;
   }
   body.menu-open ul.nav-links {
-    display: block;
+    display: block !important;
   }
   body.menu-open ul.nav-links li {
+    display: block !important;
     height: auto;
   }
   body.menu-open .responsive-nav {
